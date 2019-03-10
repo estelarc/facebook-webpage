@@ -20,5 +20,5 @@ http-server -p 8000
 Ingresar a la siguiente ruta:
 
 ```
-localhost:800
+http://localhost:8000/
 ```
