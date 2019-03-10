@@ -116,6 +116,11 @@ section, header {
   background-image: url(../img/mark-z-bg-mb.jpg);
 }
 
+
+.end-content {
+	height: auto;
+}
+
 .end-content__text {
 	padding: 28px;
 }
@@ -135,7 +140,7 @@ section, header {
 .video-content__video {
 	width: 300px;
   margin: auto;
-  padding: 56px 14px 0 14px;
+  padding: 56px 14px;
 }
 
 .video-content__video iframe{
@@ -143,9 +148,14 @@ section, header {
 }
 
 @media screen and (min-width: 425px){
+
+	.end-content {
+		height: auto;
+	}
+
 	.video-content__video {
 		width: 350px;
-		padding-top: 21px;
+		padding: 56px 14px;
 	}
 
 	.video-content__video h4 {
